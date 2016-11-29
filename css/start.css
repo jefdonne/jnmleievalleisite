@@ -1,0 +1,96 @@
+/**
+ * Generic styles
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* ===========================================
+   Custom reset
+   =========================================== */
+
+html {
+	font-size: 0.625em;  
+}
+
+* {
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+fieldset {
+	border: 0;
+}
+
+/* ===========================================
+   Helpers
+   =========================================== */
+
+.structural {
+	position: absolute;
+	left: -9999px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.ir {
+	display: block;
+	background-size: 100%; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.hidden {
+	position: absolute !important;
+	visibility: hidden !important;
+	z-index: -1 !important;
+}
+
+body {
+	background-image: url(../img/bg.jpg);
+	background-repeat: repeat-y;
+	font-family: "Lato";
+}
+h1 {
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: black;
+	line-height: 26.4px;
+	color:#7BB586;
+	text-align: center;
+}
+
+/*Menu*/
+.menu ul li{
+	display: block;
+	line-height: 15px;
+	margin-left: auto;
+	margin-right: :auto;
+	text-align: center;
+	background-color: #7BB586;
+}
+
+.menu ul li:hover{
+		background-color: #6A4441;
+		color:#7BB586;
+
+}
+.menu a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #6A4441;
+}
+.menu ul li:hover{
+	color:#7BB586;
+}
